@@ -4,17 +4,17 @@ Citation Request
 If you find our work valuable and use this paper or its findings in your research, publications, or projects, please cite our paper using the following citation information:
 
 @article{ZHENG2024168,
-title = {A temporal convolution network-based just-in-time learning method for industrial quality variable prediction},
-journal = {Chemical Engineering Research and Design},
-volume = {212},
-pages = {168-184},
-year = {2024},
-issn = {0263-8762},
-doi = {https://doi.org/10.1016/j.cherd.2024.11.003},
-url = {https://www.sciencedirect.com/science/article/pii/S0263876224006324},
-author = {Xiaoqing Zheng and Baofan Wu and Huiming Chen and Anke Xue and Song Zheng and Ming Ge and Yaguang Kong},
-keywords = {Soft sensor, Just-in-time learning (JITL), Temporal convolutional network (TCN), Industrial process, Quality variables, Temporal attention},
-abstract = {Real-time acquisition of quality variables is paramount for enhancing control and optimization of industrial processes. Process modeling methods, such as soft sensors, offer a means to predict difficult-to-obtain quality variables using easily measurable process parameters. However, the dynamic nature of industrial processes poses significant challenges to modeling. For instance, conventional models are typically trained offline using historical data, rendering them incapable of adapting to real-time changes in data distribution or environmental conditions. To tackle this challenge, we introduce a novel approach termed the Residual Temporal Attention Temporal Convolution Network (RTA-TCN) and propose a just-in-time learning method based on RTA-TCN for industrial process modeling. The RTA-TCN model incorporates temporal attention into TCN, enabling the integration of previous time-step process variables into the current ones, as well as the fusion of internally relevant features among inputs. Moreover, to prevent the partial loss of original information during feature integration, residual connections are introduced into the temporal attention mechanism. These connections facilitate the retention of original feature information to a maximal extent while integrating relevant features. Consequently, the proposed RTA-TCN demonstrates significant advantages in handling the non-linearity and long-term dynamic dependencies inherent in industrial variables. Additionally, the proposed just-in-time learning method leverages RTA-TCN as a local model and updates it in real-time using online industrial data. This just-in-time learning method enables effective adaptation to varying data distributions and environmental conditions. We validate the performance of our method using two industrial datasets (Debutanizer Column and Sulfur Recovery Unit).}
+  title = {A temporal convolution network-based just-in-time learning method for industrial quality variable prediction},
+  journal = {Chemical Engineering Research and Design},
+  volume = {212},
+  pages = {168-184},
+  year = {2024},
+  issn = {0263-8762},
+  doi = {https://doi.org/10.1016/j.cherd.2024.11.003},
+  url = {https://www.sciencedirect.com/science/article/pii/S0263876224006324},
+  author = {Xiaoqing Zheng and Baofan Wu and Huiming Chen and Anke Xue and Song Zheng and Ming Ge and Yaguang Kong},
+  keywords = {Soft sensor, Just-in-time learning (JITL), Temporal convolutional network (TCN), Industrial process, Quality variables, Temporal attention},
+  abstract = {Real-time acquisition of quality variables is paramount for enhancing control and optimization of industrial processes. Process modeling methods, such as soft sensors, offer a means to predict difficult-to-obtain quality variables using easily measurable process parameters. However, the dynamic nature of industrial processes poses significant challenges to modeling. For instance, conventional models are typically trained offline using historical data, rendering them incapable of adapting to real-time changes in data distribution or environmental conditions. To tackle this challenge, we introduce a novel approach termed the Residual Temporal Attention Temporal Convolution Network (RTA-TCN) and propose a just-in-time learning method based on RTA-TCN for industrial process modeling. The RTA-TCN model incorporates temporal attention into TCN, enabling the integration of previous time-step process variables into the current ones, as well as the fusion of internally relevant features among inputs. Moreover, to prevent the partial loss of original information during feature integration, residual connections are introduced into the temporal attention mechanism. These connections facilitate the retention of original feature information to a maximal extent while integrating relevant features. Consequently, the proposed RTA-TCN demonstrates significant advantages in handling the non-linearity and long-term dynamic dependencies inherent in industrial variables. Additionally, the proposed just-in-time learning method leverages RTA-TCN as a local model and updates it in real-time using online industrial data. This just-in-time learning method enables effective adaptation to varying data distributions and environmental conditions. We validate the performance of our method using two industrial datasets (Debutanizer Column and Sulfur Recovery Unit).}
 }
 
 # How to Cite
