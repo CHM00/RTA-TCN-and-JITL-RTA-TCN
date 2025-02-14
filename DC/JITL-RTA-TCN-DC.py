@@ -250,7 +250,6 @@ class TCANModel(BaseEstimator, RegressorMixin, nn.Module):
             print('Epoch:{}, Loss:{}, Time taken: {:.2f} sec'.format(i + 1, self.loss_hist[-1], epoch_duration))
         print('Optimization finished')
 
-            # 我这里迭代了200次，所以x的取值范围为(0，200)，然后再将每次相对应的准确率以及损失率附在x上
         # plt.cla()
         # x1 = range(1, self.n_epoch+1)
         # print(x1)
