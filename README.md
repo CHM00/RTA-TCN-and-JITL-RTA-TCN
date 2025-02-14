@@ -6,7 +6,9 @@
 The files JITL-RTA-TCN-DC.py and JITL-RTA-TCN-SRU.py implement a just-in-time learning method, while RTA-TCN-DC.py and RTA-TCN-SRU.py utilize the RTA-TCN method.  
 The datasets are provided in Debutanizer_data.txt and SRU_data.txt. Specifically, Debutanizer_data.txt is used by both JITL-RTA-TCN-DC.py and RTA-TCN-DC.py, whereas SRU_data.txt is used by JITL-RTA-TCN-SRU.py and RTA-TCN-SRU.py.  
 
-
+This code section references the following CSDN articles:
+1. [TCN Paper and Code Interpretation Summary](https://blog.csdn.net/qq_33331451/article/details/104810419)
+2. [Deep Learning — Attention Scores (Notes + Code)](https://blog.csdn.net/jbkjhji/article/details/128956369)
 
 ## Citation Request
 If you find our work valuable and use this paper or its findings in your research, publications, or projects, please cite our paper using the following citation information:
